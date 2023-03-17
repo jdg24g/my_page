@@ -19,7 +19,7 @@
         </ul>
         </header>
         <div class="content">
-            <h3>Hey_</h3>
+            <h3 class="title_1">Hey_</h3>
             <h2>I'am <span id="text"></span></h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero
@@ -58,8 +58,10 @@
 
         let banner = document.querySelector('.banner');
         let dayNight = document.querySelector('.dayNight');
+        let title_1 = document.querySelector('.title_1');
         dayNight.onclick = function(){
             banner.classList.toggle('night')
+            title_1.classList.toggle('night');
         }
     </script>
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
