@@ -18,6 +18,7 @@
 .banner.night{
     background-color: #333;
 }
+/* cambios de url */
 .banner::before{
     content: '';
     position: absolute;
