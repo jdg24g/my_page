@@ -25,7 +25,7 @@
     top:10%;
     width: 150px;
     height: 150px;
-    background-image: url(/scr/img/dotted.png);
+    background-image: url(my_page/scr/img/dotted.png);
     background-size: cover;
     animation: animateColor 10s linear infinite;
     transition-delay: -5s;
